@@ -1,6 +1,6 @@
 <template>
   <main class="">
-    <div class=" max-w-4xl  mx-auto shadow-xl mt-3 mb-12">
+    <div class=" max-w-4xl  mx-auto shadow-xl mt-3">
       <nav class="flex w-full justify-between px-4 py-6">
         <div></div>
         <div class="flex gap-4 items-end">
@@ -28,19 +28,13 @@
           </div>
         </div>
         <div class="col-span-7 md:col-span-4  px-4">
-          <div>Education</div>
-          <div>Experience</div>
-          <div>Certification</div>
-          <div>Outside Work</div>
-
+          <MetricsRight />
         </div>
       </div>
-
+      <PageFooter />
     </div>
-
     <div>
     </div>
-
   </main>
 </template>
 <script setup>
@@ -49,6 +43,8 @@ import ThemeSwitch from "@/components/ThemeSwitch.vue"
 import LanguageSwitch from "@/components/LanguageSwitch.vue"
 import ShortAbout from "@/components/ShortAbout.vue"
 import MetricsLeft from "./components/MetricsLeft.vue"
+import MetricsRight from "./components/MetricsRight.vue"
+import PageFooter from "./components/PageFooter.vue"
 const translations = useTranslationStore()
 
 </script>
