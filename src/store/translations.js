@@ -5,7 +5,10 @@ export const useTranslationStore = defineStore("translationStore", () => {
   const translations = ref({
     name: { En: "Janis", Lv: "Jānis" },
     surname: { En: "Stals", Lv: "Štāls" },
-    title: { En: "Developer / Manager", Lv: "Izstrādātājs / Menedžeris" },
+    title: {
+      En: "Developer / Project Manager",
+      Lv: "Izstrādātājs / Projektu vadītājs",
+    },
     shortAbout1: {
       En: "Highly skilled and accomplished ecommerce business developer with background in computer science",
       Lv: "B2B un B2C biznesa attīstītājs ar 8 gadu pieredzi pieredzi E-komercijā un datorzinātnē",

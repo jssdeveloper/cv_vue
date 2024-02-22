@@ -171,7 +171,7 @@
 
 <script setup>
 import { ref } from 'vue';
-const technologies = ref(["Python", "Django", "Flask", "Pandas", "Go", "Echo", "Fiber", "Sqlx", "Gorm", "Javascript", "Vue", "Docker", "Docker Compose", "Postgres", "Sqlite", "Linux"])
+const technologies = ref(["Python", "Django", "Flask", "Go", "Echo", "Fiber", "Sqlx", "Gorm", "Javascript", "Vue", "Docker", "Postgres", "Linux"])
 import { useMetricsRight } from "@/store/metricsrightstore"
 import { useTranslationStore } from "@/store/translations"
 const metrics = useMetricsRight()

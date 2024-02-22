@@ -98,7 +98,7 @@
 
         <div class="flex justify-between border-t border-base-content py-2">
             <div> {{ metrics.metricsLeft.english[translations.language] }}</div>
-            <div><input type="range" disabled="true" min="0" max="100" value="70" class="range range-xs" step="10" />
+            <div><input type="range" disabled="true" min="0" max="100" value="80" class="range range-xs" step="10" />
             </div>
         </div>
 
