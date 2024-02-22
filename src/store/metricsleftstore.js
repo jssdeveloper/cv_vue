@@ -7,7 +7,7 @@ export const useMetricsLeftStore = defineStore("useMetricsLeftStore", () => {
     location: { En: "Riga, Latvia", Lv: "Rīga, Latvija" },
     skills: { En: "Skills", Lv: "Prasmes" },
     problemSolving: { En: "Problem Solving", Lv: "Problēmu Risināšana" },
-    projectManagment: { En: "Project Managment", Lv: "Proejktu Vadība" },
+    projectManagment: { En: "Project Managment", Lv: "Projektu Vadība" },
     softSkills: { En: "Soft Skills", Lv: "Soft Skills" },
     businessDevelopment: {
       En: "Business Development",
