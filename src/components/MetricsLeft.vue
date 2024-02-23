@@ -23,14 +23,16 @@
         <div class="grid grid-cols-5 border-t border-base-content py-2">
             <div class=" flex col-span-4 items-center gap-2">
                 <EnvelopeIcon class="h-6 w-6 " />
-                <div>stalsjanis@gmail.com</div>
+                <a href="mailto: stalsjanis@gmail.com">
+                <div>stalsjanis@gmail.com</div></a>
             </div>
         </div>
 
         <div class="grid grid-cols-5 border-t border-base-content py-2">
             <div class=" flex col-span-4 items-center gap-2">
                 <GlobeAltIcon class="h-6 w-6 " />
-                <div>github.com/jssdeveloper</div>
+                <a href="https://www.github.com/jssdeveloper" target="_blank">
+                <div>github.com/jssdeveloper</div></a>
             </div>
         </div>
     </div>
